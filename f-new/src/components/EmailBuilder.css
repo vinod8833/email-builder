@@ -1,0 +1,71 @@
+.email-builder {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    background-color: #f2f2f2;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-panel {
+    width: 60%;
+}
+
+.right-panel {
+    width: 35%;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.main-text-container {
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.text-editor {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.editor-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.bold-button, .italic-button, .underline-button, .strikethrough-button, .link-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 2px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bold-button:hover, .italic-button:hover, .underline-button:hover, .strikethrough-button:hover, .link-button:hover {
+    background-color: #0056b3;
+}
